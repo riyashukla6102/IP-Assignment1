@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="">City Guide <i class="fa fa-plane"></i></a>
+        <div class="sub-navbar">
+            <a href="">Home <i class="fa fa-home"></i></a>
+            <a href="">News <i class="fa fa-newspaper-o"></i></a>
+            <a href="">Contact Us <i class="fa fa-phone"></i></a>
+            <a href="">Signup/Login <i class="fa fa-sign-in"></i></a>
+        </div>
+    </div>
+    <div>
+        <div class="slideshow-container">
+            
+
+            <div class="mySlides fade">
+              <img src="https://images.thrillophilia.com/image/upload/s--gptd7azP--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/012/900/original/1551428022_alleppeyPlaces_feature.png.jpg?1551428022" style="width:100%;">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://www.transindiatravels.com/wp-content/uploads/the-golden-temple-amritsar.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://static.toiimg.com/photo/67640645.cms" style="width:100%">
+        
+            </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+    </div>
+
+    <div class="infocontainer">
+        <div class="infoimage1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKmwqzUWaey0nXAHNQHgQxRSGQc8zUR__6w&usqp=CAU" alt="">
+        </div>
+        <div class="infotext1">
+          <div class="heading">TAJ MAHAL</div>
+          <div>Home to the wonderful Taj Mahal, Agra also features twrld Heritage sites for travelers looking for some eye candy — the Fatehpur Sikri and the Agra Fort.</div>
+        </div>
+        
+        <div class="infoimage2">
+          <img src="https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-mumbai.jpg" alt="">
+        </div>
+        <div class="infotext2">
+          <div class="heading">GATEWAY OF INDIA</div>
+          <div>The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai, India. It was erected to commemorate the landing in December 1911 at Ramchandani Road near Shyamaprasad Mukherjee Chowk in Mumbai.</div>
+        </div>
+
+        <div class="infoimage3">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhgSFRUYGBgaGBIYGBgYGhgYGBgYGBgZGRgYGBkcIS4lHB4rHxoYJjgmKy8xNTU1HCQ7QDszPy40NTEBDAwMEA8QHhISHjQkISUxMTE0NDQ0NDQ0NDQ0MTE0NDQ0NDQ0NDY0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAECBQAGB//EAD0QAAIBAgQEAwYEBgEDBQEAAAECAAMRBBIhMSJBUWEFE5EyUnGBobEjQmLBBhRy0eHwMxWy8UOCosLSU//EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACwRAAICAgECBAYBBQAAAAAAAAABAhEDEiExkRNBUWEiMlJxgaFCBCOx0fD/2gAMAwEAAhEDEQA/AMJVbqfUy61H5k+phAQZBU/GfNs+5SIFQnmfUzmv1PqZNu1pBBgpSzdT6mXDHqfUyoa0qzXjknBdqh3zH1gnqn3j6mcTBuJURsG9Q+8fUzhWb3j6mVeVM2cyS7e8fUypdvePqZ0g05SMqaje8fUyDUPvH1MsaZlfLPSDLTI80+8fUyfNPvH1MqaZG4kinBKZPmn3j6mdnPvH1MqUkhO8CmVZ294+plS7e8fUw3l953liWya2Ll294+pkeY3vH1MK6StpbMuJTzG94+pneY3vH1MIVvKERZHEr5je8fUyfMb3j6mQRKymaLeY3vH1M7zG94+plZ1oBcVG94+pkiq3vH1MHadAsJ5ze8fUyfPb3j6mCtOtFDZhPOb3j6md5re8fUwdpEULHqFVso4jz5nrOgqHsj5/edNGbNgqdxKrUIjLJlML5YYXtPLZ9GgCODLWkmj0k5TBSmWRkHSEIlc3aACalBPSjRIMGxlMuhQr2llS/KGNpAEtmaAvR6QBQx/LBukJkaFMsIFkskkCUhY09N4DJbeH1lGYwg6Ak6yoteXb4ShmjLJMrOnEwLJIvBMkvLCCdQWWVZYYiVKy2ZaFyJUiHYShEqZloHaSFlssnLFkogLKsIS0giC0CnSxEi0piiJFpYSYFB6C8I+f3nS9A8I+f3kSkNo0+8vTcjTlKU2MJmnno99hLzryuYTriSi2TIYSpMkS0LKMkGaMYIlTKQVaiRKG4jl5xAMGaE7yCY0yCCKSmWAZZUw5SUNOUA80gvC+XO8qOCci7NeUIjBoyppykdgbTrQvlzjTggK0iGFOd5cACZBhikrlgAfLnZYUiQRBATCUhSkjLBGCkQuWRaCUDkFYW0i0tkoFlnZYW0i0WSg1BeEfP7zoSgOEfP7zpozRtAiXVRJyywWcqPbYNklCsZAnZYAsKZMkUj1jBEiUgMJIKQs6KFi5ScVjBWUKRRLAkSjJDFJGSKIByyCsN5c7y5QAKyCIxknZJAKkSto2acjy4AmVkFY5klSkEFMsgrGykqacAVyyCsZKSMkGRYrKlIyUlTTlILlJUrGSkqUgC+WQVhykgpBkAVlSsOUkFIADLOywpSRlgBKA4R8/vOhaK8Pr9500Zo3Ms7LGPKMkU5k9FgAs7LGhhzLDDGLQFMs7JHP5cyDQPSLQFMk7JHBRneVBLFPLkeXHfLlTTgWJ5ZGSOeXO8vtAsSKSPLj/AJXaWXDX5QDONOR5c1TgTbSVbBt0MbIGX5cjy5oNhjK/y5iwIFJUpNA4Y9DIOGPSOAZ5SVKTQOHPSR/LwQQNOV8uaH8tIOGMCjPySppzRGFNr2lDhz0glGeacg04+aMg0IBnlJBSaIw15DYU9JCUZpSVNOaJwx6Spwx6QSjOKTsk0hhCdgZVsIw5GLQ1Elp6SY4tAyZbJR644ISP5GaFpGbtPMpSO9itPCwowohzfvIzGXlksC+DG97GUfDN0vGgxjCGXlEsx/JHSd5K9JsMP03gnpqeVppTJZljDL0lhh16Q6MCSo5G21tLD11JhAhmoyUlaYfAt/KrCJg1jAomESjqBfU3t8pG68yWDpYNOcYp4ZAB++U/UaRbE1Qmg1O2+g9BMur40tBRTc65WsScxJzC1xoeZ9OU88s0dtU7Nayas9EaSAX+0VemCb2iHgfi9OsMiniVTcXGwIC6XvqNZsFQBfuo9SB+86JqrJymLph0O6RlcKltgJPkmT5TQ69TLkBOFQHX6Xlf5amf8w3ktJFI8xI69S37iNbw0bqQe0XPhw2vYzUqIqKXbYRPBYtS5BIOdgdBaxsFHPoAJVdcDYUbws9pI8KPMj5TeWiBJZBMubGxhr4Z/toc+HC1rb87bTUVLbTmDcrTLk2Njz9TwcKdTKNgVGyX+M9HlJGoEC2HB5Ru/MqkYIogH2BA1KAJvax7bTebAg85VcFboZd0jWyMEYUdJZcLbkJ6I0FtbKIu2E1mfFsiaMpEsLCw+UD/ACbNsf2m8tGxuLSpod5nxEjVmH/05/dM6b2TuZ0vjMgISQIIPLh52olhRLWgg8sHimSy+g6S4mJ4uzsy5KgTIPMIP5+QA6n2tNd5sB5aZLCE2+n3gcc+Wk7ZghCtZjY2NtDY762li23xEw/HvF6ClUbEKtiSyKVZjta4vpzmJ2oulZY03TEvBqyUawzV2ZChBuj2LEi2U5dud+82/GMbamvlKXL81tYLa5JJItf+88jV8ewzNcMx0tpmHTkJR/HcOBez69BUPXoJ5VPLVKDOr0buz2/h+MDUwzjIwuGDWvpfuekyP4kLPUp+SVBXPxhhoDYEZdNemvP182P4hoG4Wm7H+lv3HeEPjacsO57hCfvaVyzVTiRKF2mNDw/XM9Us2+YlPjta3WCbww1GN8jAW3Pe/IHW6jtpBt410wr9+Bb2+BaVT+Iz+XC1Rf8AQo6/qnLXP1iufuje8ej/AMGt4KrYetmKBgVVLowFhpYtfQgWk+M+Js9Vlp1aflk7lgCCAAdCbg77d5it/EahiHoOp/pF9e6sYzQ8Ywzf+oR+l9v/AJAH6zf92MalG/sT4HK7Pcfw/VqNh1aqQXJe5Ugi2Y227fGaUyfAnT+XTJly8Xs7asZo+ZPRFNxTPNJfEw0iD8yJYzxFVDBSCwtzGh536WGus1o2SifFkLoqq1lL8R01AB0N+4+kxaeBdVzcw9wLLewOliNuUI+KdgEFwSKliNlJ0vfruflIr4l0ZszjRXNixygGxa/YZW17mdY6r4b5LTSPRYaoWpqxtcqL26/m+t4S885g/ESjDNaxJU22BGvxvrNt64G5AtOUotMlDF514qmIVhdSCOoN5Y1bazDixqHvIJi7VtL/AA+sqakmrKkMFxK5xMnxHxihQ/5aqIbXsx1I7DnuPWZWH/jXBu+QVCNbZmUhTrYHNyB7y+HJq0mW4rhs9STFcfXCoeLKdLa2PtD+9vnB0cUjjMjqw6qQRvbcd5l/xAzE0iNbGpfp7F9dP0+tphQbdGqSNjBuTTQtuVW/xtrvCkzOwFYGkpJA9ob9GNt+1ofzF5MPUTLxuyqhq8mLCp3E6NGDyz/xhhFfLnYjW7qjFNDbfmO4uJtpikIDBgQ1iCNbg7GfIxgXuqlKlipLfhvwkX4bWFzoPWeg/hbG1UpsjobKboXDroR7C8P6SfXtPqSxxStM80csm6aPWvjSRdHF8rjcABmuQed9/pE8LVrK4z4jNoeEkalgbCwUaXtE08bQKSKS6MqfnT8xVW/4yMuhbUiw76RvC+NYZqZqMwUhwjDK7Wb8tuEEggg3tzmUvY02r6jeGx6qjF66Ne+VibgAja8Yw3iwHDUqUy17DLpfhvaxO9gZit43Ry2WmHRWyjIAwJBy8KlOR5jvHcD4ilUkhFDBmAzNZzbLf8u3Fv3MNV5BM1F8Wpk2DAkDNYEE262+Y9Zg/wARU0rMrWA0tmshNibLrbQHleNnFANqFPDxWZQdrXN11F7XERbEJVZaSFxq5sQ7IpUi5GYixNhsOQnDLLio9TpBc2+glXwt6gBLWyAcLZOIf02udJ2GwyMOAsCyXBDEki5UkZu45zvEcUmHa9RybjhAGpILXsBy7mE8L8Rp4gFaTHMtmKsLEX0A56b7c55WsiXR16+R6VKF9Vf7BeG0yxLKzt7a2fKFzK2W9gOo37xk0DZddDf8x1It2/28PT8PcAiyLqeFVNrXJva44iTCNh3B/Lt7jf8A6mZ7OVpFTilyBWhYOSQTYjT6W0in/TBcMS+W6bO3LUbHa8fOHa1swFwdgefzgK7BHRWZVztlRbNmZulzoPTe0zGOTyEpQ8xV/Db1uAG3QHThQctxpcwWKwmamRk1y2ubML2XXQ35zUrJkfPUJKHMQFvm0XW9htbXaBoI7U8yIDp1KnYG1m2O02pTTXsT4XZoeCUjQw+daVNCFDZwiqXzHm/tHTTX9prUvEne2qD5i2wMUwGGTIXVEzMFDmxLtlN1vpuCTr8ZY1Ep3q5aY0JLZTYgkaEgA8tNZ71JNJv0PI002l6jb41/Zzob2H5SNb6b3/8AMTrK5LZ8mUC5YrvfUnRu5He05MQmYMoRyTuosSAAGIY9Mwv8p1XFBWcPwIKYe/tGwN76XuLDaTjyHIanXYjzcy2vmzBdRYG++vKULmoGqFwykHMSoN98w6n97xSp4nTOF89Kl0zEFiranUEFQAfpK+CY1HpuFcFVVNFDAKDc7MN9JnRJ7Mu18FsRVYqlRHFi5vmXKcwRjqSLrtvD4zEsgUtUGqs1m22GzXFhyuYPAYxK6IyNnAqPe4KG6qV2NveENXrOamUBQNrZS1tOdm20PznTjp5meSmBxnCcroo00S7DYdDYQB8YZmKeYBZmGhOa2ljly9z8Lc7x2mrkbgcI3Rvpxe11+UHSLtqGH5CQFYgW004ttDeHVjkTXEE13pfzFO4D8ClPNGUXFx157SyeINcL5otdNyQx3vw5D2trr2ja0D5mayBiTd/LPTUk55UU37fnHsHn149jylaXoRWAxSUv+RmVmuvE6Da9vayE7cucph1olb5l5g5KYZbZrjXyx0BjDs3Bdl1BA4NtNjxzlpPf2rcO5TTnw+37UX5ChanVphsocDV7hUYNbloE33vIxNRFAbO++uZX2PSy76QnkvuCfYtbL05e37X+3ktSckXb8pHsbdjxb/CAIYJ87JcupKtoM6qDrzGnLrBeH4lKivlxJrFVzcOdSLdLgZpoYYszWDhSBa9r5VGgzcR1uD1+MlKDg6MB8EA/f/bQmmg0xHz3/KwtyulQn58U6alFXy7nn+QdT+qRNfglGRhvHKpzO1OyinWbJZ8xcPZFXnty53vIwnjlbyVZ0zOXcZQrqciozLddSCWFgefzESFFF80WByoB3vntf4w2FwiGkhIFznuefsn/ABOWy9Dpqx3D+ON5ZZqeoNMZRmFwUDMQL7ZuHsZRPHHFO5o8RZOEE6AozsxF+TAD5yq+HoKY4Re99uWS/wC0EuFTywcovdv+y33jZDVjD+OkID5QzXa44uVNSDa17Z2I+AIg8R442ZFSkLMKrFh+QqzBBe2hIUHXfMLSHwyWXhGpqcv1KB+8quDVspCgWR+XOzkGNkNWJPj6lZM7oEyi5tmUnNl119rXl3M1MPTyMjgXLB7bqL5cxsDvpfUTPqLkUhQb8PwOvMc4onheos5GjHh0t0t01M0o45ct0zLlkjwla+43454NWrtmVNk0OZNid9T11hfAvCHoCoCmX/jYEte5AXQhdLWzHXmdohUwypcGq+gB36/+YSlgc4LLVfQ23O5t3nRxx66ufH2Oalk2tQ5+5vv5jFgFGirfTqL2B73Ey/F8Di6lkRSgDEZkcJrpoQG+0V/6c9z+K+mXm2twO8q+EZdDWfe257d4jixJ2p/oSy5Wvk/Z6dVKiwBNjY3IJsdQxzG/79ohjfD3qPRfL/xOSdRoQbLz/T9ZlDw6pr+K29tz/eV/kag085tTYatr9e0LDiXTIuxl5svnjfc3DTd6jLUWygCwF2s3MDJc7Dn0igXH0sxphQC1kuUIVSfZyseg5gHb5ZqYGrmIFU3HO7f3gsT4fVIGXEONdbFj9zCw4o/zT/BVmyy40a/JsYZscjXZFc5iozOLXO9gH0+Gw6SV/mzTFN6SBLoB7DXKNdiTmPUGx6d5gp4XiCbDF1Nz6dZKeH1tCcU7C9renQ948PHXzfo14mS/l/Zq08djFWmqIgUGxIyEsM1z+a66FR69rAxtbFMzjylsqunI8AICjMWO+9+8QWi/D+K3ESBq2+3XvLZKgLDzX0vszcjbrNLFj+pdjm8uRfxZ1CnjEpNhmpqU4nYXUEbsxGu9u9u3ON+FnEIBSVFVHZAxNy2QliTfNocpOo6bRP8AEufx32J9p+l+slVqmw859bfnfnt+abeODu5rsRZJrpB9y3h381QByooszZr5TZmBFva6reN1PFsexBCIMwJ9lTwi9zct2b/EQPm6/jPobHjfv3kh6un4z6g24379+0nhQu9l2J400q1Y+/i+OBzcOTQEZUvcjTUH/bQtbGYpKmVBcsEsSA5udSN/euPlMp3rW/5nO3/qP/eSwrhgPNe5tb8RzvtDxRb+ZdirNJL5WaJ8dxguQilQd8vM3sN+x9JQ+OY0lRkXiGnANbkjm3XSZwqVrH8RuV+Nu9pHn17g+Y3biOmv01l8GP1IeNL6WPt4jXqo10ANMEqMttT7QAvxWUMbfphqXjuK0vTzXuF4QLm9re11mWlfEG9qjaXzWYi479ZAxOIsLPzNtdjp6biR4F9SC/qH9LNFfG8UVNQIoCsqlcgvxZtb35W+sqfHcXcfhgaBrZQSRYsSNemszvPxFm4zYEZtR1sL6a6yRicRccZuRp7BNrWtqOmkLCn/ACQedryfY0KPidZE8wU73OUixPCBcEKNNywv2EqfH8SFvkBF7A5DvvbTn/aZ5xOItfObdLJbfpa3OQuKrgaNpcH2ae55+zCwVwmu4efzp9jTfx/E39gjY6025i/WdFRjK51LXP8ATT+X5ekia8L3Xcz43s+wWlmbzSLcTpY3G2Zm6noJt0kIpoP6/ssWw2Gt639Af7zQcaAfH6z5zkfSjAmoeAD9Lfa0Wvwf7zhKm3rKKnDbuITSNOJV72T4N/3GGobG/uW9Qf7yuX2f6T94ZU/aXYigKtRBp1GtsE6e8IvSGV9fcB9f/E1VX8Nx1Kf/AG/xM/xRwKygf/zpg/EKP8zlJ88Gox8jE8UUsx+X7R/woFaZB5uT9IqzA5vj+8ZaoAh7A/YzUm3FIRik2xzzL6/0xfErcj43+sHRq3UfAfYQjOLj5TFtM1qmhsvE67/iU/i32Ms78N/h95UgFlPcwpNEcEw7NxMexPoRBYY8JJ/3US+CYGo46U6x9FJ/aJvVyof95xyWkjYpJY3/AED6pB4XDhjTXq9MerAQlBr0wR7qi4+EawSBXQ32dOX6hKuF+DLRm0cKMyXGzr06znwozv8ABvqY86HNcW0N/rFqrHMx7TV32JrQmMGMlwNdvpL4bBjQkW2NjuLORY6do1QN7KdiwjnjFMUsRVRQAAdABYAHi0Fz1lcm+CapUYS4UEA23YfYzsRgrEfL94dnsn/uUxquvCp/aaUqM6WIU8CGv2W/xsQP3hMThtQf0Uvt/iHwzWv8LfWTU1I/pA67XmZN2jShwIjBjOAdiU+8HVwQDW6Ej6x2oeNSAdhCVEJJNrak6zW5nwzNXC5bnrcesmjheIDln+9v7R9xwwCPxfO8bOxokJvhbFx1P2a8E2FIynpp9Zp1Bck9yfrOZNDvNbE0RnCjZMvcj0P+RIr4TKxXqKZ+gP7mM3JNgO/2/tC4sHMpPur320kUnYcFQOhR4R8/vOjFxOm7MaDqWEsWi3mSRUnmPdQdjOvpAeZO8yBQan+0NmilN5fzJLYSD59DMTF1C1QtYaAD0Fpp55l4hxmPeWPUkkIgnXUby1RyVI3veXo2Oun1lmAnS+TnXAKlUYLax5cx2hfN1HykimOglbcUcMlNEvW4CPhKUqhzD4naWYabSKZHf/flHFDmyMLWYVHIO6VRqeo+EXrEkEf7vLYdOI27yzLqZeEzFNnp/Cl/CS/QR1RrEPD3/DX4RrzZ5ZSds9cYqgtoriaVwfhC+bOeppMqTTK4pmahAsb7MJofxVUBxbkG4OQ+qLEsQ9kuNCCDfaJ4vE5ndrkgm92OZtep0uflO8XZwnGn/wB7f6C0EuPmJrmnoPhEcAgyAzQzTlkm7OsIcAkpAS/liWzTs05ObOmqBNSlGoiHzyrPCnImiFq1I2teINhjeapa8G6CdI5GjMsaYqlH94Y0tIYAWkXEjyNlWNIx8MOMD4j7x100HaBCWqAjqY/NynymZUOAKp2nRgH/AHWdG7JojG86SKs6dPS0iE+ZOzzp0wQuKkg1p06KKV86J1jmY/An0nTppGZdCKRFoXTLc9bCdOiRmJykRZmOY6SJ00GFo6m0Xz2NudzJnSLqyS6IPhOZ+/8AicwGs6dI+oXQ0sNU4QLxgVDOnTlJKzvHoVauZIrzp0zSFg8Q90ImONzcyZ064+jOWTqjbwtUZBGPNEmdPPNKz0R6FBXlxVnTplpGiq1pD1hInQkrDKHESDip06b0Rm2cuJvJZ506RxQTYnWfiB/YRlcQJ06dGlRlN2EFYSZ06NULZ//Z">
+        </div>
+        <div class="infotext2">
+          <div class="heading">GOLDEN TEMPLE</div>
+          <div>The best times to take in the majesty of the Golden Temple are before sunrise and during the cooler evenings where temple lights set the surrounding waters aglow.
+
+          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+          <div class="footer-items">
+              <div class="heading-footer">OFFICE ADDRESS</div>
+              <div class="heading-content">Lorem ipsum, 20145</div>
+              <div class="heading-content">1200 Lorem</div>
+              <div class="heading-content">Paris</div>
+          </div>
+          <div class="footer-items">
+              <div class="heading-footer">FOLLOW US</div>
+              <div class="heading-content">
+                  <a href=""><i class="fa fa-facebook-square"></i></a>
+                  <a href=""><i class="fa fa-google"></i></a>
+                  <a href=""><i class="fa fa-telegram"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+              </div>
+              <div class="heading-content">1200 Lorem</div>
+              <div class="heading-content">Paris</div>
+          </div>
+          <div class="footer-items">
+              <div class="heading-footer">CONTACT US </div>
+              <div class="heading-content">+876245364</div>
+              <div class="heading-content">cityguide.work@email.com</div>
+              <div class="heading-content">enquiry.cityguide@email.com</div>
+          </div>
+      </div>
+  </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+      
+
+</body>
+</html>

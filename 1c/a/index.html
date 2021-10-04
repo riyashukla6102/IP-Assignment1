@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="">City Guide <i class="fa fa-plane"></i></a>
+        <div class="sub-navbar">
+            <a href="">Home <i class="fa fa-home"></i></a>
+            <a href="">News <i class="fa fa-newspaper-o"></i></a>
+            <a href="">Contact Us <i class="fa fa-phone"></i></a>
+            <a href="">Signup/Login <i class="fa fa-sign-in"></i></a>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="contactpage">
+            <div class="heading">Contact Us  <i class="fa fa-phone"></i></div>
+            <form class="contactus" name="contactus">
+            <div class="contact-item" >Name</div>
+            <input type="text" onblur="validatename()" name="contactname">
+            <div class="contact-item">Email Id</div>
+            <input type="email" onblur="validateemail()" name="contactemail">
+            <div class="contact-item">Phone No.</div>
+            <input type="text" onblur="validatenumber()" name="contactnumber">
+            <div class="contact-item">Message</div>
+            <textarea rows=4 cols=33 name="message" style="border: 0;
+            border-radius: 5px;"></textarea>
+            <button class="contact-item">SEND</button>
+        </form>
+        </div>
+
+        <div class="image-tour">
+            <img src="https://www.talaviation.com/Talaviation/UploadFiles/pgallery/201612711253290.jpg" alt="">
+        </div>
+    
+    </div>
+    
+    <script src="1a.js">
+
+    </script>
+</body>
+</html>
